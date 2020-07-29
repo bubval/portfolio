@@ -18,6 +18,10 @@ body {
     background-size: cover;
 }
 
+html, body {
+    overflow-x: hidden; 
+}
+
 section {
     padding: 6rem 0;
 }
@@ -127,7 +131,7 @@ li {
 }
 
 .nav-link {
-    font-family: 'The Historia Demo', sans-serif;
+    font-family: 'The Historia Demo', 'SpriteGraffiti', sans-serif;
     font-size: 5rem;
     padding: 1rem;
 }
@@ -148,7 +152,7 @@ li {
 .language-toggler {
     position: absolute;
     top: 2.75rem;
-    left: 5rem;
+    left: 3rem;
     width: 5rem;
     height: 5rem;
 }
@@ -213,7 +217,7 @@ li {
 
 .landing-text h1 {
     font-size: 20rem;
-    font-family: 'The Historia Demo', sans-serif;
+    font-family: 'The Historia Demo', 'SpriteGraffiti', sans-serif;
     background: linear-gradient(to top, #ffe838, #fd57bf);
     background-clip: text;
     -webkit-background-clip: text;
@@ -603,6 +607,21 @@ li {
 @font-face {
     font-family: "The Historia Demo"; 
     src: url(fonts/TheHistoriaDemo.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Heinrichscript";
+    src: url(fonts/heinrichscript.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: "142";
+    src: url(fonts/142.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "SpriteGraffiti";
+    src: url(fonts/SpriteGraffiti-Regular.ttf) format('truetype');
 }
 
 /*End fonts*/
