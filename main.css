@@ -145,6 +145,14 @@ li {
     border-radius: initial;
 }
 
+.language-toggler {
+    position: absolute;
+    top: 2.75rem;
+    left: 5rem;
+    width: 5rem;
+    height: 5rem;
+}
+
 .menu-toggler {
     position: absolute;
     top: 5rem;
@@ -267,11 +275,11 @@ li {
     color: #4267b2;
 }
 
-.fa-twitter-square:hover {
+.fa-linkedin:hover {
     color: #38a1f3;
 }
 
-.fa-dribbble-square:hover {
+.fa-file-pdf:hover {
     color: #ea4c89;
 }
 /*End about*/
@@ -302,15 +310,15 @@ li {
 .icon-container {
     width: 10rem;
     height: 10rem;
-    border: 3px solid #ffe838;
-    background-color: #fd57bf;
+    border: 3px solid #778DA9;
+    background-color: #E0E1DD;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
 }
 
 .icon-container i {
-    color: #ffe838;
+    color: #778DA9;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
@@ -364,7 +372,7 @@ li {
 
 /*Start timeline*/
 .timeline ul {
-    border-left: 4px solid #ffe838;
+    border-left: 4px solid #778DA9;
     border-radius: .8rem;
     background-color: rgba(0, 0, 0, 0.05);
     margin: 0 auto;
@@ -414,7 +422,7 @@ li {
 
 .timeline .date::after {
     content: '';
-    box-shadow: 0 0 0 4px #fd56bf;
+    box-shadow: 0 0 0 4px #E0E1DD;
     border-radius: 100%;
     left: -8rem;
     height: 1.5rem;
@@ -590,3 +598,11 @@ li {
 
 }
 /*End media queries*/
+
+/*Start fonts*/
+@font-face {
+    font-family: "The Historia Demo"; 
+    src: url(fonts/TheHistoriaDemo.ttf) format('truetype');
+}
+
+/*End fonts*/

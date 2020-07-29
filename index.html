@@ -7,13 +7,18 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
-    <link href="//db.onlinewebfonts.com/c/0923ee644c97a87d70269aa80a6f1e79?family=The+Historia+Demo" rel="stylesheet" type="text/css"/>
+    <!--<link href="//db.onlinewebfonts.com/c/0923ee644c97a87d70269aa80a6f1e79?family=The+Historia+Demo" rel="stylesheet" type="text/css"/>-->
 </head>
 <body>
 
     <!-- MAIN MENU -->
 
     <header>
+        <div class="language-toggler">
+            <a href="indexBG.html">
+                <img src="images/bulgaria.png" alt="">
+            </a>
+        </div>
         <div class="menu-toggler">
             <div class="bar half start"></div>
             <div class="bar"></div>
@@ -58,11 +63,11 @@
                     <h6>Myself</h6>
                 </div>
                 <p>
-                    My name is Lyubomir Valkov, 23 years old, born and raised in Blagoevgrad, Bulgaria. As of May 2020, I have graduated the American University in Bulgaria 
+                    My name is Lyubomir Valkov, 23 years old, born and raised in Blagoevgrad, Bulgaria. In May 2020, I graduated the American University in Bulgaria 
                     with disciplinary honors in my Computer Science and Information Systems double major.
                     <br><br>
-                    My education has focused on learning industry best practices, fundamental knowledge, clean code, and communication. We have focused on both practical and 
-                    theoretical aspects. I've taken part in several extracurricular projects and hackatons which can be found in the "Portfolio" section.
+                    My education has focused on learning industry best practices, fundamental knowledge, clean code, and communication. We have explored both practical and 
+                    theoretical aspects. I've taken part in several extracurricular projects and hackathons which can be found in the "Portfolio" section.
                     <br><br>
                     I have experience in iOS and web development. However, I am also interested in learning more about game development, neuroevolution, DevOps, and Agile 
                     / project management.
@@ -71,18 +76,18 @@
                 <div class="social-media">
                     <ul class="nav-list">
                         <li>
-                            <a href="#" class="icon-link">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/lubo.valkov97/" class="icon-link">
                                 <i class="fab fa-facebook-square"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="icon-link">
-                                <i class="fab fa-twitter-square"></i>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/l%D1%83ubo-valkov-107114180/" class="icon-link">
+                                <i class="fab fa-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="icon-link">
-                                <i class="fab fa-dribbble-square"></i>
+                            <a target="_blank" rel="noopener noreferrer" href="files/CV-Lyubo.pdf" class="icon-link">
+                                <i class="fas fa-file-pdf"></i>
                             </a>
                         </li>
                     </ul>
@@ -118,7 +123,7 @@
                     </div>
                     <h1>Web Development</h1>
                     <p>
-                        My web development journey began in univeristy. Although having learned markup, styling and javascript with some jQuery and AJAX, I did not see myself 
+                        My web development journey began in university. Although having learned markup, styling and javascript with some jQuery and AJAX, I did not see myself 
                         being a web developer until I tried .NET Core. I instantly took a liking to it and the whole Microsoft web stack. Since then I've completed my CS senior project 
                         and several freelance websites using .NET Core. I'm also very interested in learning the MEVN stack.
                     </p>
@@ -160,9 +165,9 @@
                         predict spikes and drops in prices of flagship mobile phones. Additionally, the website allows the user to input desired hardware specifications which the 
                         website takes into account, finds all suitable phones, forecasts their price and displays to the user when that phone would be cheapest to buy.  
                     </p>
-                    <a href="#" class="cta">View Video Description</a>
+                    <a href="https://www.youtube.com/watch?v=ge9j1Vr-ExA" class="cta">View Video Description</a>
                     <br>
-                    <a href="#" class="cta">View Source</a>
+                    <a href="https://github.com/bubval/Senior-Project-Lyubo" class="cta">View Source</a>
                 </div>
             </div>
             <div class="portfolio-item">
@@ -174,7 +179,7 @@
                         Scrum project management specifically. My goal is twofold -- provide experienced developers an intuitive way to organize their projects in a Scrum-like 
                         fashion and help novice developers easily understand Scrum. 
                     </p>
-                    <a href="#" class="cta">View Source</a>
+                    <a href="https://github.com/bubval/waffle-clone" class="cta">View Source</a>
                 </div>
                 <div class="portfolio-img " data-aos="fade-left" data-aos-delay="600">
                     <img src="images/portitem2.jpeg" alt="">
@@ -193,7 +198,7 @@
                         queue to play one after another, skipping songs from the queue, stopping the current song and wiping the queue of following songs.
 
                     </p>
-                    <a href="#" class="cta">View Source</a>
+                    <a href="https://github.com/bubval/Dicord-Music-Bot" class="cta">View Source</a>
                 </div>
             </div>
             <div class="portfolio-item">
@@ -206,7 +211,7 @@
                         couple of generations the AI becomes exponentially better until it eventually reaches a point where it can’t be beat. The project uses a generic algorithm, 
                         specifically NEAT – Neuroevolution of augmenting topologies.
                     </p>
-                    <a href="#" class="cta">View Source</a>
+                    <a href="https://github.com/bubval/FlappyBird" class="cta">View Source</a>
                 </div>
                 <div class="portfolio-img " data-aos="fade-left" data-aos-delay="600">
                     <img src="images/portitem4.jpg" alt="">
@@ -224,7 +229,7 @@
                         a database consisting of wifi passwords, and displays the wifi password of all restaurants close to the user's location. I was a member of a 3 person team with my 
                         responsibilities being to integrate Google Places API into the project.
                     </p>
-                    <a href="#" class="cta">View Source</a>
+                    <a href="https://github.com/bubval/wifi-buddy" class="cta">View Source</a>
                 </div>
             </div>
         </div>
@@ -241,43 +246,43 @@
             <div class="timeline" data-aos="fade-down" data-aos-delay="300">
                 <ul>
                     <li class="date" data-date="Sep - Dec 2019">
-                        <h1>Softwary - PHP Developer</h1>
+                        <h1>PHP Developer - Softwary</h1>
                         <p>
-                            Primarily maintanance of an existing codebase. Responsibilities included resolving issues and adding new features. 
+                            Primarily maintenance of an existing codebase. Responsibilities included resolving issues and adding new features. 
                         </p>
                     </li>
                     <li class="date" data-date="May - Aug 2019">
-                        <h1>Tumba - iOS Development Intern</h1>
+                        <h1>iOS Development Intern - Tumba</h1>
                         <p>
                             Working on an internal project to increase productivity and streamline development work.
                         </p>
                     </li>
                     <li class="date" data-date="Jan - May 2019">
-                        <h1>Cogitality - English Translator</h1>
+                        <h1>English Translator - Cogitality</h1>
                         <p>
                             Translating all articles on their website from Bulgarian to English.
                         </p>
                     </li>
                     <li class="date" data-date="May - Sep 2018">
-                        <h1>Denali Mountaineer Grill - Server</h1>
+                        <h1>Server - Denali Mountaineer Grill</h1>
                         <p>
                             Taking order from and serving food to customers.
                         </p>
                     </li>
                     <li class="date" data-date="May - Sep 2018">
-                        <h1>Kurt's General Store - Cashier</h1>
+                        <h1>Cashier - Kurt's General Store</h1>
                         <p>
                             Scan items, ensure that prices and quantities are correct, and collecting payments.
                         </p>
                     </li>
                     <li class="date" data-date="May - Sep 2017">
-                        <h1>Denali Mountaineer Grill - Busser</h1>
+                        <h1>Busser - Denali Mountaineer Grill</h1>
                         <p>
                             Preparing dining room for patrons by cleaning and clothing tables, setting decorations, condiments, napkins, service plates and utensils.
                         </p>
                     </li>
                     <li class="date" data-date="May - Sep 2017">
-                        <h1>Denali Princess Wilderness Lodge - Housekeeper</h1>
+                        <h1>Housekeeper - Denali Princess Wilderness Lodge</h1>
                         <p>
                             Performing a variety of cleaning activities such as sweeping, mopping, dusting and polishing.
                         </p>
