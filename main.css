@@ -57,7 +57,10 @@ img {
 
 .section-heading h1 {
     font-size: 3.5rem;
-    color: rgba(255, 255, 255, .3);
+    background: linear-gradient(to top, #ffe838, #fd57bf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
@@ -131,7 +134,7 @@ li {
 }
 
 .nav-link {
-    font-family: 'The Historia Demo', 'SpriteGraffiti', sans-serif;
+    font-family: 'SpriteGraffiti', 'The Historia Demo', sans-serif;
     font-size: 5rem;
     padding: 1rem;
 }
@@ -217,7 +220,7 @@ li {
 
 .landing-text h1 {
     font-size: 20rem;
-    font-family: 'Bryndan', 'The Historia Demo', 'SpriteGraffiti', sans-serif;
+    font-family: 'SpriteGraffiti', 'Bryndan', 'The Historia Demo', sans-serif;
     background: linear-gradient(to top, #ffe838, #fd57bf);
     background-clip: text;
     -webkit-background-clip: text;
@@ -323,7 +326,10 @@ li {
 }
 
 .icon-container i {
-    color: #778DA9;
+    background: linear-gradient(to top, #e4c900, #fd57bf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
