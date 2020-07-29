@@ -151,8 +151,8 @@ li {
 
 .language-toggler {
     position: absolute;
-    top: 2.75rem;
-    left: 3rem;
+    top: 4rem;
+    left: 5rem;
     width: 5rem;
     height: 5rem;
 }
@@ -217,13 +217,14 @@ li {
 
 .landing-text h1 {
     font-size: 20rem;
-    font-family: 'The Historia Demo', 'SpriteGraffiti', sans-serif;
+    font-family: 'Bryndan', 'The Historia Demo', 'SpriteGraffiti', sans-serif;
     background: linear-gradient(to top, #ffe838, #fd57bf);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
     user-select: none;
+    font-weight: 500;
 }
 
 .landing-text h6 {
@@ -554,6 +555,11 @@ li {
         right: 2rem;
     }
 
+    .language-toggler {
+        top: 1.5rem;
+        left: 2rem;
+    }
+
     .landing-text h1 {
         font-size: 8rem;
     }
@@ -624,4 +630,8 @@ li {
     src: url(fonts/SpriteGraffiti-Regular.ttf) format('truetype');
 }
 
+@font-face {
+    font-family:"Bryndan";
+    src: url(fonts/Bryndan2.ttf) format('truetype');
+}
 /*End fonts*/
